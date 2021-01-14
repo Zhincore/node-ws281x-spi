@@ -1,9 +1,18 @@
 {
   "name": "ws281x-spi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows controlling WS281x LEDs over SPI on SBCs like Pine64",
   "main": "lib/index.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhincore/node-ws281x-spi"
+  },
+  "keywords": [ "ws281x", "pine64", "rpi" ],
+  "homepage": "https://github.com/zhincore/node-ws281x-spi#readme",
+  "bugs": {
+    "url": "https://github.com/zhincore/node-ws281x-spi/issues"
+  },
   "author": "Adam Žingor <adam@zhincore.eu>",
   "license": "GPLv3+",
   "dependencies": {
