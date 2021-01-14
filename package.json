@@ -1,0 +1,13 @@
+{
+  "name": "ws281x-spi",
+  "version": "1.0.0",
+  "description": "Allows controlling WS281x LEDs over SPI on SBCs like Pine64",
+  "main": "lib/index.js",
+  "scripts": {},
+  "author": "Adam Žingor <adam@zhincore.eu>",
+  "license": "GPLv3+",
+  "dependencies": {
+    "color": "^3.1.3",
+    "spi-device": "^3.1.0"
+  }
+}
