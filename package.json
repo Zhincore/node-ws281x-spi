@@ -1,6 +1,6 @@
 {
   "name": "ws281x-spi",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Allows controlling WS281x LEDs over SPI on SBCs like Pine64",
   "main": "lib/index.js",
   "scripts": {},
