@@ -38,13 +38,13 @@ Parameters:
 
 ### `.data` - Parameter defining the color of each individual pixel
 Must be either:
-+ `Uint8Array` of values that form 0xRRGGBB in hexadecimal form. (eg. `0xff0000` is red)
++ `Uint32Array` of values that form 0xRRGGBB in hexadecimal form. (eg. `0xff0000` is red)
 + `Array` with values that the library [color](https://www.npmjs.com/package/color) can understand. (Basically any CSS representation of color and more) (eg. `"#ff0000"`, `"red"`, `{r: 255, g: 0, b: 0}`, `[255, 0, 0]` or `"hsl(0deg, 100%, 50%)"`, see the library's documentation for reference)
 
 ### `.render()` - Send the current data to the LED strip
 You can optionally pass a object similar to `.data` defined above that will replace the values in current `.data` before rendering.  
 Parameters:
-+ `data` Uint8Array or Array - Optional data to replace current data with. (explained above)
++ `data` Uint32Array or Array - Optional data to replace current data with. (explained above)
 
 ### `.destroy()` - Close the SPI communication and optionally turn off the LEDs
 After the method is called, the instance is no longer usable. SPI communication is closed and reference to `.data` is dropped.  
