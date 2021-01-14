@@ -3,6 +3,11 @@ Allows controlling WS281x LEDs over SPI pin on single board computers like Pine6
 
 ---
 
+# Installation
+```
+npm i ws281x-spi
+```
+
 # Usage
 The node proccess needs to run as root to be able to access to SPI.  
 
