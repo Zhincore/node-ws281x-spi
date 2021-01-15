@@ -64,6 +64,14 @@ The following has been tested to be functional:
 ## LEDs
 + WS2812b
 
+
+# Troubleshooting
+
+## Error: EMSGSIZE, Message too long
+If you get this message, it means you have too many LEDs.  
+Messages are limited my SPI's bufsize, which is 4096 by default (approx. 32 LEDs).
+
+
 ---
 
 # License
